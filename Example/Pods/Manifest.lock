@@ -1,0 +1,16 @@
+PODS:
+  - ModuloTeste (0.1.0)
+
+DEPENDENCIES:
+  - ModuloTeste (from `../`)
+
+EXTERNAL SOURCES:
+  ModuloTeste:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ModuloTeste: 57017db9b554d1a8b27d495c162bf7b2519fc938
+
+PODFILE CHECKSUM: ffa1d32f8b85b5b178963a7535d0bf591fb98841
+
+COCOAPODS: 1.10.1

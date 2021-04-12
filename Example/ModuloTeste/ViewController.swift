@@ -7,11 +7,18 @@
 //
 
 import UIKit
+import ModuloTeste
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var meuButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+       
+        meuButton.setTitle(ButtonBecaiOS.TituloNormal, for: .normal)
+        meuButton.setTitle(ButtonBecaiOS.TituloClick, for: .highlighted)
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
